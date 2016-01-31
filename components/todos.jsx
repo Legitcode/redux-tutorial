@@ -13,7 +13,7 @@ const Todos = ({todos, dispatch}) => (
         e.target.value = ''
       }
     }}/>
-    {todos.map(todo => <p key={todo}>{todo}</p>)}
+    {todos.map((todo, index) => <p key={index}>{todo}</p>)}
   </div>
 )
 
