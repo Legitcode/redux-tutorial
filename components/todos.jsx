@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import NewTodo from './newTodo'
+import NewTodo from './NewTodo'
 import { addTodo } from '../actions'
 
 const Todos = ({todos, dispatch}) => (
